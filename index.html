@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room4Clarity</title>
+     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <script src="index.js"></script>
+</head>
+<body>
+    <section id="landing-page">
+        <nav>
+            <div class="nav__container">
+                <figure>
+                    <img class="path-img" src="/rimages/logo.png" alt="cirle-logo">
+                </figure>
+                <ul class="nav__link--list">
+                <li class="nav__link">
+                <a href="#landing-page" class="nav__link--anchor">Home</a>
+            </li>
+             <li class="nav__link">
+                <a href="#hero" class="nav__link--anchor">Introduction</a>
+            </li>
+             <li class="nav__link">
+                <a href="#mission" class="nav__link--anchor">Mission</a>
+            </li>
+            <li class="nav__link">
+                <a href="#products" class="nav__link--anchor">Products & FAQs</a>
+            </li>
+             <li class="nav__link">
+                <a href="#questions" class="nav__link--anchor">Questions</a>
+            </li>
+            <li class="nav__link">
+                <a href="#contact" class="nav__link--anchor">Contact</a>
+            </li>
+                </ul>
+            </div>
+        </nav>
+            <header>
+    <div class="header__content">
+          <img class="n-path" src="/rimages/rpi.png" alt="">
+        <h1 class="landing__h1">Room 4 Clarity</h1>
+        <p class="landingp2">Clear the mess.<br>Exhale the stress.</p>
+    </div>
+      <div class="landing-images">
+        <img class="cloud-home" src="/rimages/cloudhome.png" alt="clouds">
+      </div>
+            </header>
+    </section>
+   
+      <section id="hero">
+        <div class="hero__content">
+      <h2 class="h2">A calm you can<br>come home to.</h2>
+        <p class="p">
+        Room 4 Clarity helps busy professionals declutter 
+        their closets and offices so they can feel lighter,
+        calmer, and more focused at home.
+       </p>
+        </div>
+       <img class="hero-img" src="/rimages/hero.png" alt="woman">
+      </section>
+
+    <section id="mission">
+<div class="mission__content">
+        <h1>Our Mission</h1> 
+
+        <div class="mission__card">
+   <h2>
+    I created Room 4 Clarity because I know how deeply clutter can affect the way a person feels
+    in their own home. What may look like “just stuff” can quietly become stress, decision fatigue 
+    and one more thing on an already full plate. My mission is to offer kind, patient, judgment-free
+    support for busy professionals who are ready to reclaim their closets and offices with care—so
+    their homes can feel lighter, calmer, and more like a place where they can finally exhale.
+   </h2>
+        </div>
+</div>
+<div class="icon-container">
+<i class="fa-solid fa-star star__one"></i>
+<i class="fa-solid fa-star star__two"></i>
+<i class="fa-jelly fa-regular fa-star star__three"></i>
+<i class="fa-jelly fa-regular fa-star star__four"></i>
+<i class="fa-solid fa-heart heart__one"></i>
+<i class="fa-solid fa-heart heart__two"></i>
+<i class="fa-regular fa-heart heart__three"></i>
+<i class="fa-regular fa-heart heart__four"></i>
+</div>
+    </section>
+
+    <section id="products">
+    <h1>Solutions Tailored for You</h1>
+    <div class="card__container">
+    <div class="product__card">
+        <div class="clear__space">
+        <img class="card-img" src="/rimages/card1.png">
+            <h3>Clear Space Session</h3>
+            <p>Done-for-you decluttering</p>
+            <div class="arrow-btn">
+                <button class="icon-btn" onclick="openModal('modal1')">
+            <i class="fa-solid fa-circle-arrow-up arrow"></i>
+                </button>
+            </div>
+                 <div id="modal1" class="card-modal">
+
+  <div class="modal-card">
+
+    <button class="modal-close" onclick="this.parentElement.parentElement.classList.remove('active')">
+        <i class="fa-solid fa-xmark"></i>
+    </button>
+
+    <h3>
+        <b>Best For:</b><br>
+        Busy professionals who want someone to come in and handle
+        most of the decluttering process for them.
+    </h3>
+
+    <p>
+        <b>Service Description:</b><br>
+        This service is for clients who want their closet or office
+        decluttered with minimal involvement. The client provides the
+        initial direction, approves key decisions, and the decluttering
+        support is handled for them.
+    </p>
+
+    <p class="modal-heading">
+        <b>Includes:</b>
+    </p>
+   
+    <ul>
+        <li>Closet or office decluttering</li>
+        <li>Sorting items into keep, discard, donate, or relocate</li>
+        <li>Light reset of the space</li>
+        <li>Bagging donation and discard items</li>
+        <li>Simple recommendations for keeping the space clear</li>
+        <li>Before-and-after visual reset if the client approves photos</li>
+    </ul>
+
+    <p>
+        <b>Launch Pricing:</b><br>
+        $70/hour with a 3-hour minimum
+    </p>
+
+    <p>
+        <b>Simple Package:</b><br>
+        <b>The Clear Space Session</b><br>
+        3 hours: <b>$210</b><br>
+        4 hours: <b>$280</b><br>
+        Additional time: <b>$70/hour</b>
+    </p>
+
+</div>
+</div>
+
+            
+          </div>
+    </div>
+
+   
+
+     <div class="product__card">
+        <div class="clear__together">
+        <img class="card-img" src="/rimages/card2.png">
+            <h3>Clear Together Session</h3>
+            <p>Done-for-you decluttering</p>
+            <div class="arrow-btn">
+                 <button class="icon-btn" onclick="openModal('modal2')">
+            <i class="fa-solid fa-circle-arrow-up arrow"></i>
+            </button>
+            </div>
+            <div id="modal2" class="card-modal">
+
+  <div class="modal-card">
+
+    <button class="modal-close" onclick="this.parentElement.parentElement.classList.remove('active')">
+        <i class="fa-solid fa-xmark"></i>
+    </button>
+
+    <h3>
+        <b>Best For:</b><br>
+        Clients who feel overwhelmed and need support making decisions.
+    </h3>
+
+    <p>
+        <b>Service Description:</b><br>
+        This service is for clients who wants someone beside them while they declutter.
+        It provides structure, accountability, encouragement, and decision-making support.
+    </p>
+
+    <p class="modal-heading">
+        <b>Includes:</b>
+    </p>
+   
+    <ul>
+        <li>Guided decluttering support</li>
+        <li>Body-doubling style assistance</li>
+        <li>decision-making prompts</li>
+        <li>Closet or office sorting</li>
+        <li>Help choosing what to keep, donate, discard, or relocate</li>
+        <li>light reset of the space</li>
+        <li>Donation anad discard bagging</li>
+    </ul>
+
+    <p>
+        <b>Suggested Launch Pricing:</b><br>
+        $60/hour with a 3-hour minimum
+    </p>
+
+    <p>
+        <b>Simple Package:</b><br>
+        <b>The Clear Space Session</b><br>
+        3 hours: $180<br>
+        4 hours: $240<br>
+        Additional time: $60/hour
+    </p>
+
+</div>
+</div>
+            
+         </div>
+      </div>
+
+     <div class="product__card">
+        <div class="add-on">
+        <img class="card-img" src="/rimages/card3.png">
+            <h3>Add-on Services</h3>
+            <p>Done to help keep your mind at ease.</p>
+            <div class="arrow-btn">
+                 <button class="icon-btn" onclick="openModal('modal3')">
+            <i class="fa-solid fa-circle-arrow-up arrow"></i>
+                 </button>
+            </div>
+
+                  <div id="modal3" class="card-modal">
+
+  <div class="modal-card">
+
+    <button class="modal-close" onclick="this.parentElement.parentElement.classList.remove('active')">
+        <i class="fa-solid fa-xmark"></i>
+    </button>
+
+    <h3>
+        <b>Best For:</b><br>
+        Clients who already completed a decluttering session and 
+        want help keeping the space from sliding back into clutter.
+    </h3>
+
+    <p>
+        <b>Service Description:</b><br>
+       This is a recurring reset service for previously decluttered closets and offices. 
+       The goal is to keep the space clear, functional, and easy to maintain.
+    </p>
+
+    <p class="modal-heading">
+        <b>Includes:</b>
+    </p>
+   
+    <ul>
+        <li>Light decluttering</li>
+        <li>Tidying previously decluttered spaces</li>
+        <li>Removing new clutter</li>
+        <li>Re-sorting items that have piled up</li>
+        <li>Resetting closet or office surfaces</li>
+        <li>Bagging donations or discard items</li>
+        <li>Helping the client stay ahead of clutter</li>
+    </ul>
+
+    <p>
+        <b>Maintenance Pricing:</b><br>
+    </p>
+
+    <p>
+        <b>Monthly Reset</b><br>
+        2 hours once per month: <b>$125/month</b>
+    </p>
+
+    <p>
+        <b>Biweekly Reset</b><br>
+        2 hours every other week: <b>$225/month or $100/bi-weekly</b>
+    </p>
+
+    <p>
+        <b>Premium Biweekly Reset</b><br>
+        3 hours every other week:<b>$300/month</b><br>
+        Maintenance should only be available to clients who have 
+        completed an initial decluttering session first.
+    </p>
+
+</div>
+</div>
+        
+            </div>
+    </div>
+    </div>
+    </section>
+    <section id="questions">
+        <h2>Common<br>questions,<br>answered.</h2>
+        <div class="questions__container">
+    <div class="questions__card card-1">
+        <h3>What spaces do you declutter?</h3>
+        <h4>Room 4 Clarity specializes in closet and home office decluttering<br>for busy professionals. We help sort, simplify, and reset the <br>space so it feels easier to use and maintain.</h4>
+   </div>
+    <div class="questions__card card-2">
+        <h3>How does the session work?</h3>
+        <h4>Buddy Decluttering is done with you; Done-For-You requires<br>less involvement. Sessions start at 3 hours, and you approve key<br> decisions before items are removed.</h4>
+    </div>
+    <div class="questions__card card-3">
+        <h3>What is included after the session?</h3>
+        <h4>Maintenance resets are available after your first session to help<br> keep your space clear. Deep cleaning, heavy lifting, and full-<br>home organizing are not included.</h4>
+    </div>
+        </div>
+        <img class="textq" src="/rimages/qmessage.png">
+    </section>
+   <section id="contact">
+        <h3>We'd love to <br> hear from you</h3>
+        <div class="social__brands">
+        <a href="https://www.instagram.com/room4clarity?utm_source=qr" target="_blank">
+<i class="fa-brands fa-instagram insta"></i>
+        </a>
+        <a href="https://www.facebook.com/september.howard.7/?rdid=U7PGDhNRgLb4nkWM" target="_blank">
+<i class="fa-brands fa-facebook facebook"></i>
+        </a>
+        </div>
+   </section>
+        <footer id="footer">
+             <div class="up__arrow">
+            <a href="#">
+            <i class="fa-regular fa-chevron-up arrow__up"></i>
+            </a>
+        </div>
+   <div class="footer__social--list">
+     <a href="https://www.instagram.com/room4clarity?utm_source=qr" target="_blank" class="footer__social--link">Instagram</a>
+     <a href="https://www.facebook.com/september.howard.7/?rdid=U7PGDhNRgLb4nkWM" target="_blank" class="footer__social--link">Facebook</a>
+     <a href="https://docs.google.com/forms/d/1rxvtdo1AUubCU_TmgqTk0IqEpcSe_Bnkxhob-CtFC70/viewform?ts=6a978654&edit_requested=true" target="_blank" class="footer__social--link">Contact</a>
+   </div>
+    <div class="footer__copyright">
+     <p>&copy September Howard 2026</p>
+    </div>
+     </footer>
+      </body>
+      </html>
